@@ -15,7 +15,7 @@ app.use(cors());
 
 // Database connection with MongoDB
 mongoose
-    .connect(process.env.ATLAS_URI)
+    .connect("mongodb+srv://arvanshh11:7dLdBJYCuotPpAHi@cluster0.be764uw.mongodb.net/")
     .then(() => {
         console.log("Connected to MongoDB");
     })
